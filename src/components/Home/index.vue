@@ -1,7 +1,7 @@
 <template>
     <div>
         <comp-featured/>
-        <comp-content/>
+        <compContent/>
     </div>
 </template>
 <script>

@@ -13,14 +13,15 @@
                 </div>
             </md-card-header>
 
-            <md-card-action>
+            <md-card-actions>
                 <app-button
                     type="link"
                     linkTo="#"
                     :addClass="['small_link','right']"
                 >See review 
                 </app-button>
-            </md-card-action>
+            </md-card-actions>
+
             </md-card>
         </div>
     </div>
@@ -30,13 +31,13 @@ import posts from '../../assets/posts';
 export default {
     data(){
         return {
-            posts 
+            posts
         }
-    }
+    },
 }
 </script>
 <style>
-    .right{
+    /* .right{
         float: right !important;
-    }
+    } */
 </style>
